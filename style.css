@@ -6,8 +6,17 @@
 
 /* ==== FULL SCREEN HEADER ==== */
 .video
-position:fixed;
-z-index:-1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 
 @media (min-aspect-ratio:16/9) {
 #video {
@@ -33,11 +42,6 @@ background-size: cover;
 }
 }
 
-main {
-    display: inline-block;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3) url("../img/screen.png");
-}
 
 .cover {
     position: absolute;
