@@ -48,11 +48,10 @@ background-size: cover;
 }
 
 .cover {
-	position: absolute;
 	background:url(../video.mp4) no-repeat center;
   background-size:cover;
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
  	font-family: 'Roboto', sans-serif;
   text-align:right;
   display: table;
