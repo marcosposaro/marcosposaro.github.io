@@ -33,6 +33,12 @@ background-size: cover;
 }
 }
 
+main {
+    display: inline-block;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) url("../img/screen.png");
+}
+
 .cover {
     position: absolute;
     top: 50%;
