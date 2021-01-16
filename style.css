@@ -78,6 +78,9 @@ main {
     display: inline-block;
     width: 100%;
     padding: 15px 60px 80px 20px;
+    text-align:right;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
 }
 
 .trail {
