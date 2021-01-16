@@ -48,6 +48,17 @@ background-size: cover;
 }
 
 .cover {
+	background:url(../video.mp4) no-repeat center;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+ 	font-family: 'Roboto', sans-serif;
+  text-align:right;
+  display: table;
+  margin: 0
+}
+
+.wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,12 +69,6 @@ background-size: cover;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     box-sizing: border-box;
-}
-
-.wrapper {
-	display: table-cell;
-  vertical-align: middle;
-	padding: 0.625rem;
 }
 
 .byline {
