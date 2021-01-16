@@ -11,4 +11,4 @@ function updateAmount(){   console.log("updateAmount running");
    runningTotal = runningTotal+amountPerSecond;
   document.getElementById('counter').innerHTML = integer;
 }
-setInterval(updateAmount, 1000); 
+setInterval(updateAmount, 1000);
