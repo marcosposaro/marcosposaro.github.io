@@ -5,18 +5,7 @@
 }
 
 /* ==== FULL SCREEN HEADER ==== */
-.video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    font-family: 'Roboto', sans-serif;
-}
+
 
 @media (min-aspect-ratio:16/9) {
 #video {
@@ -61,16 +50,9 @@ main {
 }
 
 .wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    box-sizing: border-box;
+	display: table-cell;
+  vertical-align: middle;
+	padding: 0.625rem;
 }
 
 .byline {
