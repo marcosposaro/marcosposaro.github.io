@@ -15,10 +15,7 @@
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    -webkit-overflow-scrolling: touch;
     box-sizing: border-box;
-    font-family: 'roman', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    font-size: 62.5%;
     line-height: 1;
 }
 
