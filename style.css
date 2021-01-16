@@ -43,7 +43,10 @@ background-size: cover;
 }
 }
 
-
+main {
+    display: inline-block;
+    height: 100%;
+}
 .cover {
     position: absolute;
     top: 50%;
