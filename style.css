@@ -5,16 +5,6 @@
 }
 
 /* ==== FULL SCREEN HEADER ==== */
-.cover {
-	background:url(video.mp4) no-repeat center;
-  background-size:cover;
-  height: 100vh;
-  width: 100vw;
- 	font-family: 'Roboto', sans-serif;
-  text-align:right;
-  display: table;
- }
-
 .video
 position:fixed;
 z-index:-1;
@@ -43,6 +33,17 @@ background-size: cover;
 }
 }
 
+.cover {
+	background:url(video.mp4) no-repeat center;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+ 	font-family: 'Roboto', sans-serif;
+  text-align:right;
+  display: table;
+  margin: 0
+}
+
 .wrapper {
 	display: table-cell;
   vertical-align: middle;
@@ -50,22 +51,22 @@ background-size: cover;
 }
 
 .headline {
-	font-size:3rem;
-	margin: 2rem;
+	font-size:5rem;
+	margin: 3rem;
   color: #ccc59b
 }
 
 @media screen and (min-width: 1224px) {
 
 	.headline {
-		font-size: 3rem;
+		font-size: 5rem;
      color:#ccc59b;
 	}
 
 }
 
 .tagline {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	line-height: 1.5rem;
   color:#ccc59b;;
 }
@@ -74,23 +75,11 @@ background-size: cover;
 @media screen and (min-width: 1224px) {
 
 	.tagline{
-		font-size: 2.5rem;
+		font-size: 5rem;
      color:#ccc59b;
 	}
 
 }
-
-
-.byline h2 {
-	font-size: 0.8rem;
-	line-height: 1.5rem;
-	letter-spacing: .1rem;
-	margin-bottom: .5rem;
-	text-transform: uppercase;
-  color:#ccc59b;
-  font-family: 'Roboto', sans-serif;
-}
-  
 /* ==== FOLDS AND CONTENTS ==== */
 
 body {
