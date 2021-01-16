@@ -18,6 +18,11 @@
     box-sizing: border-box;
 }
 
+main {
+    display: inline-block;
+    height: 100%;
+}
+
 @media (min-aspect-ratio:16/9) {
 #video {
 width:100%;
