@@ -108,6 +108,12 @@ main {
     margin: 3rem;
 }
 
+#page1 h2 {
+	font-size: 3rem;
+	line-height: 1.5rem;
+  color:#ccc59b;;
+}
+
 
 /* ==== FOLDS AND CONTENTS ==== */
 
