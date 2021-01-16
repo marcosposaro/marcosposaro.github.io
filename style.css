@@ -101,10 +101,11 @@ main {
 #page1 h1 {
     padding: 0;
     float: left;
-    color: #fff;
+    color: #ccc59b;
     font-weight: normal;
-    font-size: 7.2rem;
+    font-size: 5rem;
     line-height: 6rem;
+    margin: 3rem;
 }
 
 
