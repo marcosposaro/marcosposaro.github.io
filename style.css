@@ -45,8 +45,6 @@ main {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'roman', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    font-size: 62.5%;
     line-height: 1;
 }
 
@@ -90,7 +88,6 @@ main {
 
 #page1 h1 {
     padding: 0;
-    float: left;
     color: #ccc59b;
     font-weight: normal;
     font-size: 5rem;
