@@ -48,6 +48,7 @@ background-size: cover;
 }
 
 .cover {
+	position: absolute;
 	background:url(../video.mp4) no-repeat center;
   background-size:cover;
   height: 100vh;
