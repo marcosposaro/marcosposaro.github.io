@@ -88,7 +88,7 @@ background-size: cover;
   color: #ccc59b
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
 
 	.headline {
 		font-size: 5rem;
@@ -104,7 +104,7 @@ background-size: cover;
 }
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
 
 	.tagline{
 		font-size: 5rem;
