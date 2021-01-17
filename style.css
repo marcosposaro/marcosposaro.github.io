@@ -82,13 +82,12 @@ background-size: cover;
     width: auto;
     height: auto;
     text-align:right;
-    z-index: -100;
-    box-sizing: border-box;
     padding: 400px 60px 80px 20px;
     font-family: 'Roboto', sans-serif;
     vertical-align: middle;	
 }
-
+	
+	
 .headline {
 	font-size:5rem;
 	margin: 3rem;
@@ -98,7 +97,7 @@ background-size: cover;
 @media screen and (min-width: 1224px) {
 
 	.headline {
-		font-size: 5rem;
+		font-size: 2rem;
      color:#ccc59b;
 	}
 
@@ -114,7 +113,7 @@ background-size: cover;
 @media screen and (min-width: 1224px) {
 
 	.tagline{
-		font-size: 5rem;
+		font-size: 2rem;
      color:#ccc59b;
 	}
 
