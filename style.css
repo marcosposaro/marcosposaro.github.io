@@ -4,6 +4,21 @@
 	box-sizing: border-box;
 }
 
+
+scroll_button {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #down {
+  margin-top: 100%;
+  padding-bottom: 25%;
+ }
+
 /* ==== FULL SCREEN HEADER ==== */
 .video{
     position: absolute;
