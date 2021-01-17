@@ -66,7 +66,7 @@ background-size: cover;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
