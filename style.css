@@ -21,8 +21,7 @@
 
 main {
     display: inline-block;
-    width:auto;
-    height: auto;
+    height: 100%;
 }
 
 @media (min-aspect-ratio:16/9) {
