@@ -17,6 +17,7 @@
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     box-sizing: border-box;
+	background-size: cover;
 }
 
 main {
