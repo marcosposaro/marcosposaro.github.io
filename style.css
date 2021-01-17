@@ -82,7 +82,6 @@ background-size: cover;
     width: auto;
     height: auto;
     text-align:right;
-    z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     padding: 400px 60px 80px 20px;
     font-family: 'Roboto', sans-serif;
