@@ -91,7 +91,7 @@ background-size: cover;
 @media screen and (max-width: 1224px) {
 
 	.headline {
-		font-size: 5rem;
+		font-size: 2rem;
      color:#ccc59b;
 	}
 
@@ -107,7 +107,7 @@ background-size: cover;
 @media screen and (max-width: 1224px) {
 
 	.tagline{
-		font-size: 5rem;
+		font-size: 2rem;
      color:#ccc59b;
 	}
 
